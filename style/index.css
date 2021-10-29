@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
     margin:0;
     max-width:100%;
     font-family: 'Ubuntu', sans-serif;
-    border:1px solid grey; 
+    /* border:1px solid grey;  */
 }
 
 /*General Styles*/
@@ -49,15 +49,13 @@ h1{
     font-size:6rem;
 } 
 a{
-    display:flex;
-    flex-direction:space-between;
     text-decoration: none;
     color:black;
     font-size:1.8rem;
-    padding:.5% 1%;
-    margin-top:auto;
-    /* border-radius: 1rem; */
+    padding:1% 5%;
+    border-radius: 1rem;
     border:1px solid black;
+    width:25%
 }
 button{
     font-size:1.8rem;
@@ -70,18 +68,14 @@ button{
 
 .title{
     font-size: 3rem;
-    margin:1%;
-}
-nav{
-    display:flex;
-    justify-content: space-between;
-    width:100%;
-    top:0;
-    z-index: 999; /*everything should scroll behind this*/
+    margin-bottom:.5%;
 }
 
 /*Body Styles*/
 
+header{
+    background-color: gray;
+}
 .pfp img{
     width: 600px;
     height: auto;
@@ -115,13 +109,11 @@ nav{
     width:40rem;
 }
 .links{
-    width:13.3%;
     display:flex;
-    justify-content:left;
     text-align: center;
-    margin:2%;
-
-
+    background-color: white;
+    width:30%;
+    justify-content:center;
 }
 .boxes{
     display:flex;
@@ -130,64 +122,23 @@ nav{
     padding:1%;
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
     
 .boxes div{
-    width:25%;
+    width:23%;
   }
-.box1{
+.box1 .box2 .box3 .box4 .box5 .box6 .box7 .box8{
     display:flex;
     flex-wrap: wrap;
-    border:1px solid black;
-    justify-content: center;
-}
-.box2{
-    display:flex;
-    flex-wrap: wrap;
-    border:1px solid black;
-    justify-content: center;
-}
-.box3{
-    display:flex;
-    flex-wrap: wrap;
-    border:1px solid black;
-    justify-content: center;
-}
-.box4{
-    display:flex;
-    flex-wrap: wrap;
-    border:1px solid black;
-    justify-content: center;
-}
-.box5{
-    display:flex;
-    flex-wrap: wrap;
-    border:1px solid black;
-    justify-content: center;
-}
-.box5{
-    display:flex;
-    flex-wrap: wrap;
-    border:1px solid black;
-    justify-content: center;
-}
-.box6{
-    display:flex;
-    flex-wrap: wrap;
-    border:1px solid black;
-    justify-content: center;
-}
-.box7{
-    display:flex;
-    flex-wrap: wrap;
-    border:1px solid black;
-    justify-content: center;
-}
-.box8{
-    display:flex;
-    flex-wrap: wrap;
-    border:1px solid black;
-    justify-content: center;
 }
 
+/*Footer Stlye*/
+
+footer{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    background-color: gray;
+}
 
