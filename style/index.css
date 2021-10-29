@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
     margin:0;
     max-width:100%;
     font-family: 'Ubuntu', sans-serif;
-    /* border:1px solid grey;  */
+    border:1px solid grey; 
 }
 
 /*General Styles*/
@@ -43,7 +43,6 @@ body{
     line-height:1.5;
     color:#4f4f4f;
     background-color:#FBFFFB;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 h1{
     color:black;
@@ -61,7 +60,6 @@ a{
     border:1px solid black;
 }
 button{
-    font-family: 'Source Sans Pro', sans-serif;
     font-size:1.8rem;
     padding:.5% 1%;
     margin-top:4%;
@@ -84,10 +82,11 @@ nav{
 
 /*Body Styles*/
 
-img{
+.pfp img{
     width: 600px;
     height: auto;
     padding:1rem;
+    border-radius: 10%;
 }
 .face-img{
     display:flex;
@@ -124,11 +123,71 @@ img{
 
 
 }
-#projects{
-    width:25%;
-    height:50px;
-  }
-#projects{
+.boxes{
     display:flex;
-    flex-direction:row;
+    align-content: flex-start;
+    margin:1%;
+    padding:1%;
+    display:flex;
+    flex-wrap: wrap;
 }
+    
+.boxes div{
+    width:25%;
+  }
+.box1{
+    display:flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    justify-content: center;
+}
+.box2{
+    display:flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    justify-content: center;
+}
+.box3{
+    display:flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    justify-content: center;
+}
+.box4{
+    display:flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    justify-content: center;
+}
+.box5{
+    display:flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    justify-content: center;
+}
+.box5{
+    display:flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    justify-content: center;
+}
+.box6{
+    display:flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    justify-content: center;
+}
+.box7{
+    display:flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    justify-content: center;
+}
+.box8{
+    display:flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    justify-content: center;
+}
+
+
