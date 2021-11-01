@@ -47,6 +47,9 @@ body{
 h1{
     color:black;
     font-size:6rem;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
 } 
 a{
     text-decoration: none;
@@ -56,6 +59,7 @@ a{
     /* border-radius: 1rem; */
     border:1px solid black;
     width:25%;
+    background-color: lightgray;
 }
 button{
     font-size:1.8rem;
@@ -107,13 +111,15 @@ header{
 }
 .pj_button{
     width:40rem;
+    
 }
 .links{
     display:flex;
     text-align: center;
-    background-color: white;
     width:30%;
     justify-content:center;
+    font-weight: bold;
+    background-color: #243457;
 }
 .boxes{
     display:flex;
@@ -127,11 +133,10 @@ header{
     
 .boxes div{
     width:23%;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
   }
-.box1 .box2 .box3 .box4 .box5 .box6 .box7 .box8{
-    display:flex;
-    flex-wrap: wrap;
-}
 
 /*Footer Stlye*/
 
@@ -142,4 +147,79 @@ footer{
     background-color:#001b56 ;
     padding: 5%;
 
+}
+/*media queries*/
+@media (max-width: 500px){
+    h1{
+        text-align: center;
+    }
+    a{
+        background-color: lightgray;
+    }
+    .links{
+        width:100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #243457;
+    }
+    .face-img{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .pfp{
+        min-height : 100%;
+        min-width : 100%;
+        background-size:100%;
+    }
+    .section1b{
+        margin:1%;
+        text-align: center;
+        min-width: 100%;
+    }
+    .pj_button{
+        min-width: 100%;
+        margin-top:0px;
+    }
+    button{
+        margin-top: 0px;
+    }
+    .boxes div{
+        width:48%;
+        padding-bottom: 10%;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: underline;
+    }
+    
+
+}
+
+
+
+@media(max-width: 800px){
+    .links{
+        width:100%;
+        align-items: center;
+        background-color: #243457;
+    }
+    .face-img{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .pfp img{
+        width: auto;
+    }
+    .section1b{
+        margin:1%;
+        text-align: center;
+        min-width: 100%;
+    }
+    .pj_button{
+        min-width: 100%;
+        margin-top:0px;
+    }
+    button{
+        margin-top: 0px;
+    }
 }
